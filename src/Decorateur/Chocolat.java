@@ -2,8 +2,8 @@ package Decorateur;
 
 import Composants.Boisson;
 
-public class chocolat extends Decorator {
-    public chocolat(Boisson boisson) {
+public class Chocolat extends Decorator {
+    public Chocolat(Boisson boisson) {
         super(boisson);
     }
 
